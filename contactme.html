@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact page for Rubabe Khalilova">
+    <meta name="author" content="Rubabe Khalilova">
+    <title>Contact Me – Rubabe Khalilova</title>
+    <link rel="icon" type="image/png" href="file:///Users/rubabehalilova/Downloads/WhatsApp%20Image%202025-09-27%20at%2015.14.58.jpeg">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="aboutme.html">Homepage</a> |
+            <a href="myeducation.html">My Education</a> |
+            <a href="myschedule.html">Weekly Schedule</a> |
+            <a href="questionnare.html">Questionnaire</a> |
+        </nav>
+    </header>
+
+    <section>
+        <form action="mailto:rkhalilova15224@ada.edu.az" method="POST" enctype="text/plain">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required><br><br>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <label for="interest">Favorite Subject:</label>
+            <select id="interest" name="interest">
+                <option value="Programming">Programming</option>
+                <option value="Networking">Networking</option>
+                <option value="Security">Cyber Security</option>
+		<option value="Security">Calculus</option>
+            </select><br><br>
+
+            <label for="newsletter">Subscribe to newsletter?</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="Yes"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rubabe Khalilova</p>
+    </footer>
+</body>
+</html>

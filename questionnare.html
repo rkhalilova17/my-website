@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Questionnaire page for Rubabe Khalilova">
+  <meta name="author" content="Rubabe Khalilova">
+  <title>Questionnaire – Rubabe Khalilova</title>
+  <link rel="icon" type="image/png" href="file:///Users/rubabehalilova/Downloads/WhatsApp%20Image%202025-09-27%20at%2015.14.58.jpeg">
+
+</head>
+<body>
+  <header>
+    <h1>Questionnaire</h1>
+    <nav> |
+      <a href="aboutme.html">Homepage</a> |
+      <a href="myeducation.html">Education</a> |
+      <a href="myschedule.html">Weekly Schedule</a> |
+      <a href="contactme.html">Contact</a> |
+    </nav>
+  </header>
+
+  <section>
+    <article>
+      <h2>Tell us about yourself</h2>
+      <form action="mailto:rkhalilova15224@ada.edu.az" method="POST" enctype="text/plain">
+        
+        <p>Do you enjoy coding?</p>
+        <input type="radio" id="yesCoding" name="enjoy_coding" value="Yes">
+        <label for="yesCoding">Yes</label>
+        <input type="radio" id="noCoding" name="enjoy_coding" value="No">
+        <label for="noCoding">No</label><br><br>
+
+        <p>Which topics interest you? (Select all that apply)</p>
+        <input type="checkbox" id="web" name="topics" value="Web Development">
+        <label for="web">Web Development</label><br>
+        <input type="checkbox" id="networking" name="topics" value="Networking">
+        <label for="networking">Networking</label><br>
+        <input type="checkbox" id="security" name="topics" value="Cyber Security">
+        <label for="security">Cyber Security</label><br><br>
+
+        <p>How would you rate your interest in IT? (1 = low, 5 = high)</p>
+        <select name="interest_rating" id="interest_rating">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select><br><br>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rubabe Khalilova</p>
+  </footer>
+</body>
+</html>

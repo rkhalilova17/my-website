@@ -13,7 +13,6 @@ During this project, I learned:
 - How to link multiple pages together.
 - How to create and style forms.
 - How to use layout techniques like **Float**, **Flexbox**, and **Grid**.
-- How to host a website on **GitHub Pages**.
 
 ## Purpose of the Website
 The purpose of this website is to serve as a **personal portfolio and practice project** for learning web development fundamentals.

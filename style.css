@@ -190,3 +190,15 @@ footer {
     height: 150px;
   }
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* exactly 3 columns */
+  gap: 15px;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr; /* 1 image per row on mobile */
+  }
+}

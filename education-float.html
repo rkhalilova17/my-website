@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Rubabe Khalilova">
+  <meta name="description" content="Education using float and position layout">
+  <title>Education (Float) – Rubabe Khalilova</title>
+  <link rel="icon" type="image/png" href="file:///Users/rubabehalilova/Downloads/WhatsApp%20Image%202025-09-27%20at%2015.14.58.jpeg">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .edu-container {
+      overflow: auto;
+      background: #fff8f4;
+      padding: 20px;
+      border-radius: 15px;
+    }
+    .edu-list {
+      float: left;
+      width: 45%;
+      margin-right: 5%;
+    }
+    .edu-table {
+      float: left;
+      width: 50%;
+    }
+    .edu-table table { width: 100%; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>My Education – Float Layout</h1>
+  <nav>
+    <a href="aboutme.html">Homepage</a> |
+    <a href="myschedule.html">Schedule</a> |
+    <a href="contactme.html">Contact</a> |
+    <a href="questionnare.html">Questionnaire</a> |
+    <a href="gallery.html">Gallery</a> 
+  </nav>
+  <nav class="layout-nav">
+    <a href="education-flex.html" class="nav-link">Education Layout (Flex)</a> |
+    <a href="education-grid.html" class="nav-link">Education Layout (Grid)</a> |
+    <a href="contactme-bootstrap.html" class="nav-link">Contact Me (Bootstrap)</a> 
+  </nav> 
+</header>
+
+<section class="edu-container">
+  <div class="edu-list">
+    <ul>
+      <li>2011–2014  Elementary School Lyceum №7 in Moscow</li>
+      <li>2014–2019  School № 1601 named after Hero of the Soviet Union E.K.Lyutikov in Moscow</li>
+      <li>2019–2021  School №240 in Baku</li>
+      <li>2021–2023  ADA School</li>
+      <li>2023–2027  BSIT, ADA University</li>
+    </ul>
+  </div>
+  <div class="edu-table">
+    <table>
+      <tr><th>Years</th><th>Institutions</th></tr>
+      <tr><td>2011–2014</td><td>Lyceum №7</td></tr>
+      <tr><td>2014–2019</td><td>School № 1601 named after Hero of the Soviet Union E.K.Lyutikov in Moscow</td></tr>
+      <tr><td>2019–2021</td><td>School №240 in Baku</td></tr>
+      <tr><td>2021–2023</td><td>ADA School</td></tr>
+      <tr><td>2023–2027</td><td>ADA University</td></tr>
+    </table>
+  </div>
+</section>
+
+<footer><p>&copy; 2025 Rubabe Khalilova</p></footer>
+</body>
+</html>
